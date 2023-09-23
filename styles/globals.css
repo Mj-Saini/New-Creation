@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Oxanium&display=swap");
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@font-face {
+  font-family: ff_rocker;
+  src: url("../public/assets/font/NewRocker-Regular.ttf");
+}
+
+.ff_rocker {
+  font-family: "ff_rocker";
+}
+.ff_nanum {
+  font-family: "Oxanium", cursive;
+}
+
+.bg_navbar {
+  background: linear-gradient(90deg, #012c3a 0.59%, rgba(47, 117, 158, 0) 100%);
+
+  /* box-shadow: 0px 3px 16px 0px #003444ab; */
+}
+.bg_size_full::after {
+  background-size: 100%, 100%;
+}
+
+.hero_down_img {
+  animation: down_arrow 1.5s ease-in-out infinite alternate-reverse;
+}
+@keyframes down_arrow {
+  100% {
+    transform: translateY(10px);
+  }
+}

@@ -5,8 +5,8 @@ import HeroSlider from "./HeroSlider";
 const Hero = () => {
   return (
     <>
-      <div className="z-10 relative w-screen min-h-screen flex">
-        <div className="max-w-[1069px] mx-auto flex flex-col justify-center items-center text-center z-10 relative pt-24 flex-grows">
+      <div className="z-10 relative  min-h-screen flex">
+        <div className="max-w-[1069px] mx-auto flex flex-col justify-center items-center text-center z-10 relative flex-grows">
           <h1 className="ff_rocker font-normal text-5xl leading-[59.99px]">
             FRONT END DEVELOPERS
           </h1>
@@ -28,10 +28,10 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="absolute top-0 left-0 min-h-screen">
-          {" "}
-          <HeroSlider />
-        </div>
+      </div>{" "}
+      <div className="absolute top-0 left-0 min-h-screen z-[-1]">
+        {" "}
+        <HeroSlider />
       </div>
     </>
   );

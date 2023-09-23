@@ -7,7 +7,7 @@ const HeroSlider = () => {
       bgImg: "/assets/images/webp/TvuM20.webp",
     },
     {
-      bgImg: "/assets/images/webp/TvuM20.webp",
+      bgImg: "/assets/images/jpeg/ROG-Pugio.jpg",
     },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Oxanium&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxanium&family=Roboto&display=swap");
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -27,12 +27,12 @@ body {
 }
 
 @font-face {
-  font-family: ff_rocker;
+  font-family: ff_roboto;
   src: url("../public/assets/font/NewRocker-Regular.ttf");
 }
 
-.ff_rocker {
-  font-family: "ff_rocker";
+.ff_roboto {
+  font-family: "Roboto", sans-serif;
 }
 .ff_nanum {
   font-family: "Oxanium", cursive;

@@ -11,17 +11,12 @@ const HeroSlider = () => {
     },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
-  console.log(currentIndex, "hjkl");
+  console.log(currentIndex, "Mj");
 
   const nextImage = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % HeroSliderImg.length);
   };
 
-  const prevImage = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? HeroSliderImg.length - 1 : prevIndex - 1
-    );
-  };
   const [isAutoplayPaused, setIsAutoplayPaused] = useState(false);
 
   useEffect(() => {
@@ -58,8 +53,9 @@ const HeroSlider = () => {
         >
           <Image
             src={img.bgImg}
-            width="100"
-            height="100"
+            // width="100"
+            layout="fill"
+            // height="100"
             alt="slider-image"
             className="w-full h-full object-cover"
           />

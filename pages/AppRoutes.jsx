@@ -10,7 +10,7 @@ const AppRoutes = () => {
       <Hero />
       <AboutUs />
       <OurTeam />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

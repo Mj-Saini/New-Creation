@@ -33,28 +33,20 @@ const Header = () => {
               className="ff_roboto lg:text-[24px] text-[20px] text-white after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-0 hover:after:w-full after:h-[3px] after:bg-[#25A6DD] hover:text-[#25A6DD] duration-300 relative after:bg-no-repeat after:duration-300 bg_size_full"
               href="#"
             >
+              ABOUT US
+            </a>
+          </li>{" "}
+          <li>
+            <a
+              className="ff_roboto lg:text-[24px] text-[20px] text-white after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-0 hover:after:w-full after:h-[3px] after:bg-[#25A6DD] hover:text-[#25A6DD] duration-300 relative after:bg-no-repeat after:duration-300 bg_size_full"
+              href="#"
+            >
               TEAM
             </a>
           </li>
           <li>
-            <a
-              className="ff_roboto lg:text-[24px] text-[20px] text-white after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-0 hover:after:w-full after:h-[3px] after:bg-[#25A6DD] hover:text-[#25A6DD] duration-300 relative after:bg-no-repeat after:duration-300 bg_size_full"
-              href="#"
-            >
-              ABOUT US
-            </a>
-          </li>
-          <li>
-            <a
-              className="ff_roboto lg:text-[24px] text-[20px] text-white after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-0 hover:after:w-full after:h-[3px] after:bg-[#25A6DD] hover:text-[#25A6DD] duration-300 relative after:bg-no-repeat after:duration-300 bg_size_full"
-              href="#"
-            >
-              CONTACT
-            </a>
-          </li>
-          <li>
             <button className="md:hidden ff_roboto bg-[#2C368B] flex justify-center items-center lg:py-[15px] py-[10px] ps-[25px] pe-[29px] gap-[10px] lg:text-[20px] text-[18px] text-white rounded-[9px]">
-              LOGIN
+              Join us
               <span>
                 <svg
                   width="19"
@@ -83,7 +75,7 @@ const Header = () => {
           </li>
         </ul>
         <button className="hidden ff_roboto bg-[#2C368B] md:flex justify-center items-center lg:py-[15px] py-[10px] ps-[25px] pe-[29px] gap-[10px] lg:text-[20px] text-[18px] text-white rounded-[9px]">
-          LOGIN
+          Join us
           <span>
             <svg
               width="19"

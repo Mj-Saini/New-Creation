@@ -42,7 +42,7 @@ const HeroSlider = () => {
     <div
       onMouseEnter={handlePauseAutoplay}
       onMouseLeave={handleResumeAutoplay}
-      className="relative h-screen w-screen overflow-hidden"
+      className="relative h-screen overflow-hidden"
     >
       {HeroSliderImg.map((img, index) => (
         <div
@@ -53,9 +53,7 @@ const HeroSlider = () => {
         >
           <Image
             src={img.bgImg}
-            // width="100"
             layout="fill"
-            // height="100"
             alt="slider-image"
             className="w-full h-full object-cover"
           />

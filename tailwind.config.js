@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-bg-img": url("./public/assets/images/webp/TvuM20.webp"),
+        "footer-bg-img": url("/assets/images/png/footer_bg_image.png"),
         "hero-bg-video": url(
           "./public/assets/video/AdobeStock_479077316_Video_4K_Preview.mov"
         ),

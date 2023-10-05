@@ -34,7 +34,7 @@ body {
 .ff_roboto {
   font-family: "Roboto", sans-serif;
 }
-.ff_nanum {
+.ff_oxinium {
   font-family: "Oxanium", cursive;
 }
 
@@ -54,4 +54,8 @@ body {
   100% {
     transform: translateY(10px);
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

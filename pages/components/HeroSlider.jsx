@@ -23,7 +23,7 @@ const HeroSlider = () => {
     let autoplayInterval;
 
     if (!isAutoplayPaused) {
-      autoplayInterval = setInterval(nextImage, 5000);
+      autoplayInterval = setInterval(nextImage, 50000);
     }
 
     return () => {
@@ -57,7 +57,7 @@ const HeroSlider = () => {
             alt="slider-image"
             className="w-full h-full object-cover"
           />
-          <video autoPlay src={img.video}></video>
+          <video muted loop autoPlay src={img.video}></video>
         </div>
       ))}
     </div>

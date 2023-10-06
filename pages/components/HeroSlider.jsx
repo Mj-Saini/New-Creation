@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 const HeroSlider = () => {
   const HeroSliderImg = [
     {
-      bgImg: "/assets/images/webp/TvuM20.webp",
+      video: "/assets/images/video/team-video.mp4",
     },
     {
       bgImg: "/assets/images/jpeg/ROG-Pugio.jpg",
@@ -23,7 +23,7 @@ const HeroSlider = () => {
     let autoplayInterval;
 
     if (!isAutoplayPaused) {
-      autoplayInterval = setInterval(nextImage, 1000);
+      autoplayInterval = setInterval(nextImage, 5000);
     }
 
     return () => {
@@ -57,6 +57,7 @@ const HeroSlider = () => {
             alt="slider-image"
             className="w-full h-full object-cover"
           />
+          <video autoPlay src={img.video}></video>
         </div>
       ))}
     </div>

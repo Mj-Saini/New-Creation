@@ -5,18 +5,18 @@ const AboutUs = () => {
   return (
     <div id="about" className="lg:my-32 md:my-20 my-12 md:my px-3">
       <div className="container max-w-[1208px] mx-auto relative">
-        <Image
+        {/* <Image
           className="w-full h-full absolute z-[-1] px-3 lg:px-0 hidden lg:flex"
           src="/assets/images/png/about-us-border-image.png"
           alt="shadow"
           width="1204"
           height="648"
-        />
+        /> */}
         <h2 className="ff_roboto font-normal text-[32px] md:text-[40px] lg:text-[52px] text-white leading-[60px] m-0 lg:pt-16 text-center">
           ABOUT US
         </h2>
         <div className="flex flex-col lg:flex-row w-full justify-between">
-          <div className="lg:w-1/2">
+          {/* <div className="lg:w-1/2">
             <div className="lg:ps-12 lg:pe-16 pt-4 lg:pt-7 pb-5 lg:pb-12 flex justify-center">
               <Image
                 className="lg:w-full lg:h-full"
@@ -26,10 +26,10 @@ const AboutUs = () => {
                 height="313"
               />
             </div>
-          </div>
-          <div className="lg:w-1/2">
-            <div className="flex justify-center flex-col items-center lg:pe-12 lg:pt-7">
-              <p className="ff_oxinium font-normal text-base sm:text-xl text-center lg:text-start md:text-2xl md:leading-8 text-white mb-0">
+          </div> */}
+          <div className="w-full">
+            <div className="flex justify-center flex-col items-center lg:pt-7">
+              <p className="ff_oxinium font-normal text-base sm:text-xl text-center md:text-2xl md:leading-8 text-white mb-0">
                 Front-end developers create the visual and interactive aspects
                 of websites using HTML, CSS, and JavaScript, ensuring a seamless
                 user experience. They also focus on responsive design and

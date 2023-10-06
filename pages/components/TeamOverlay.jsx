@@ -3,7 +3,7 @@ import React from "react";
 const TeamOverlay = () => {
   return (
     <>
-      <div className="p-6">
+      <div className="p-4">
         <h4 className="text-white ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
           corrupti quod blanditiis expedita perspiciatis laboriosam praesentium

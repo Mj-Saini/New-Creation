@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import HeroSlider from "./HeroSlider";
-import Header from "./common/Header";
 
 const Hero = () => {
   return (
@@ -30,7 +29,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className="absolute top-0 left-0 min-h-screen w-full z-[-1]">
+      <div className="absolute top-0 left-0 min-h-screen w-full z-[-1] ">
         {" "}
         <HeroSlider />
       </div>

@@ -12,7 +12,7 @@ module.exports = {
       backgroundImage: {
         "footer-bg-img": url("/assets/images/png/footer_bg_image.png"),
         "hero-bg-video": url(
-          "./public/assets/video/AdobeStock_479077316_Video_4K_Preview.mov"
+          "/assets/video/AdobeStock_479077316_Video_4K_Preview.mov"
         ),
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
